@@ -1,0 +1,9 @@
+PREFIX : <http://example.org/lol#>
+
+SELECT ?champ ?tags WHERE {
+  ?champ :hasTags ?tags .
+  FILTER(
+    CONTAINS(LCASE(str(?tags)), "mage")
+    && CONTAINS(LCASE(str(?tags)), "control")
+  )
+}
