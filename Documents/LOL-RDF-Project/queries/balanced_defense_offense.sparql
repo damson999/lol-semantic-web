@@ -1,0 +1,11 @@
+PREFIX : <http://example.org/lol#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?champ ?hp ?armor ?ad
+       ((xsd:double(?hp) + xsd:double(?armor)) / xsd:double(?ad) AS ?balance)
+WHERE {
+  ?champ :hasHP ?hp ;
+         :hasArmor ?armor ;
+         :hasAttackDamage ?ad .
+}
+ORDER BY ?balance

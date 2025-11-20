@@ -1,0 +1,11 @@
+PREFIX : <http://example.org/lol#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?c a :Mage .
+}
+WHERE {
+  ?c :hasRange ?r ;
+     :hasAttackDamage ?ad .
+  FILTER(xsd:double(?ad) < 60 && xsd:integer(?r) > 400)
+}
