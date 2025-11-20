@@ -1,0 +1,6 @@
+PREFIX : <http://example.org/lol#>
+SELECT ?champ ?tags WHERE {
+  ?champ :hasTags ?tags .
+  FILTER(CONTAINS(LCASE(str(?tags)), "fighter"))
+}
+LIMIT 50

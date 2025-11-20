@@ -1,0 +1,8 @@
+PREFIX : <http://example.org/lol#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?champ ?cc WHERE {
+  ?champ a :Support ;
+         :hasCrowdControl ?cc .
+  FILTER(xsd:integer(?cc) >= 3)
+}
+ORDER BY DESC(?cc)

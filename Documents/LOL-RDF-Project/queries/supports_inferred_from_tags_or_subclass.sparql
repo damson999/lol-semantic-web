@@ -1,0 +1,12 @@
+PREFIX : <http://example.org/lol#>
+
+SELECT DISTINCT ?champ WHERE {
+  {
+    ?champ a :Support .
+  }
+  UNION {
+    ?champ :hasTags ?t .
+    FILTER(CONTAINS(LCASE(str(?t)), "support"))
+  }
+}
+ORDER BY ?champ

@@ -1,0 +1,10 @@
+PREFIX : <http://example.org/lol#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?champ ( (xsd:double(?hp) * 0.4 + xsd:double(?armor) * 0.3 + xsd:double(?ad) * 0.3) AS ?powerIndex )
+WHERE {
+  ?champ :hasHP ?hp ;
+         :hasArmor ?armor ;
+         :hasAttackDamage ?ad .
+}
+ORDER BY DESC(?powerIndex)
+LIMIT 20

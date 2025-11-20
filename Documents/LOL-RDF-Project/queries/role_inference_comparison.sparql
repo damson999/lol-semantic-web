@@ -1,0 +1,8 @@
+PREFIX : <http://example.org/lol#>
+SELECT ?champ WHERE {
+  ?champ a :Mage .
+  FILTER NOT EXISTS {
+    ?champ :hasTags ?t .
+    FILTER(CONTAINS(LCASE(str(?t)), "mage"))
+  }
+}
