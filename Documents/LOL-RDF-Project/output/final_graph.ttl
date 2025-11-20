@@ -1,0 +1,7 @@
+@prefix : <http://example.org/lol#> .
+
+# Import ontología
+<> owl:imports <../ontology/lol.owl> .
+
+# Import datos generados
+<> owl:imports <champions.ttl> .
