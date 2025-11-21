@@ -1,0 +1,12 @@
+# Entrega campeones que no usen maná.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ
+WHERE {
+  ?champ a lol:Champion ;
+         lol:hasStat ?stat .
+  ?stat lol:statName "mp" ;
+        lol:statValue 0 .
+}
+ORDER BY ?champ

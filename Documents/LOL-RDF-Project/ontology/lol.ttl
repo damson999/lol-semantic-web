@@ -48,14 +48,12 @@
                           owl:hasValue "attackdamage" ]
                         [ a owl:Restriction ;
                           owl:onProperty :statValue ;
-                          owl:someValuesFrom [
-                                a rdfs:Datatype ;
-                                owl:onDatatype xsd:float ;
-                                owl:withRestrictions ( [ xsd:minInclusive 60 ] )
-                          ]
+                          owl:someValuesFrom xsd:float ;
+                          owl:withRestrictions ( [ xsd:minInclusive 60 ] )
                         ]
                     )
               ]
             ]
         )
     ] .
+

@@ -1,0 +1,11 @@
+# Entrega una lista de los campeones cuyo daño de ataque (attackdamage) es mayor a 60 con el valor.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ ?value WHERE {
+  ?champ a lol:Champion ;
+         lol:hasStat ?stat .
+  ?stat lol:statName "attackdamage" ;
+        lol:statValue ?value .
+  FILTER (?value > 60)
+}

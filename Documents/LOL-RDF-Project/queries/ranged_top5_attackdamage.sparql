@@ -1,0 +1,13 @@
+# Entrega una lista de los 5 campeones de rango que tengan más daño de ataque.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ ?attackDamage WHERE {
+  ?champ a lol:Champion ;
+         lol:isRanged true ;
+         lol:hasStat ?stat .
+  ?stat lol:statName "attackdamage" ;
+        lol:statValue ?attackDamage .
+}
+ORDER BY DESC(?attackDamage)
+LIMIT 5

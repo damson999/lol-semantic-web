@@ -1,3 +1,5 @@
+# Entrega una lista de todos los campeones que tengan el rol de mago (Mage).
+
 PREFIX lol: <http://example.org/lol#>
 
 SELECT ?champ WHERE {
