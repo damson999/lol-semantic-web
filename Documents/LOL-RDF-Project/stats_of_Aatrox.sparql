@@ -1,0 +1,9 @@
+# Entrega todas las estadísticas (stats) que tenga el campeón Aatrox.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?statName ?statValue WHERE {
+  lol:Aatrox lol:hasStat ?stat .
+  ?stat lol:statName ?statName ;
+        lol:statValue ?statValue .
+}

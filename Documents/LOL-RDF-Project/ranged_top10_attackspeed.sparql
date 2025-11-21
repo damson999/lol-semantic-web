@@ -1,0 +1,14 @@
+# Entrega una lista de los 10 campeones de rango que tengan mayor velocidad de ataque.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ ?attackspeed
+WHERE {
+  ?champ a lol:Champion ;
+         lol:isRanged true ;
+         lol:hasStat ?stat .
+  ?stat lol:statName "attackspeed" ;
+        lol:statValue ?attackspeed .
+}
+ORDER BY DESC(?attackspeed)
+LIMIT 10

@@ -1,0 +1,7 @@
+# Entrega una lista con todos los HighDamageChampion, inferido anteriormente.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ WHERE {
+  ?champ a lol:HighDamageChampion .
+}

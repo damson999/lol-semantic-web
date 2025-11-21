@@ -1,0 +1,11 @@
+# Entrega una lista de los campeones con sus respectivas estadísticas.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ ?statName ?statValue WHERE {
+  ?champ a lol:Champion ;
+         lol:hasStat ?stat .
+  ?stat lol:statName ?statName ;
+        lol:statValue ?statValue .
+}
+ORDER BY ?champ ?statName

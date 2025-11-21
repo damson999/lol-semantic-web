@@ -1,0 +1,8 @@
+# Entrega una lista de los campeones de rango.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ WHERE {
+  ?champ a lol:Champion ;
+         lol:isRanged true .
+}

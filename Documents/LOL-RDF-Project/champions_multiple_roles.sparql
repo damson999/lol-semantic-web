@@ -1,0 +1,10 @@
+# Entrega una lista de los campeones que tengan más de un rol posible.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ (COUNT(?role) AS ?numRoles) WHERE {
+  ?champ a lol:Champion ;
+         lol:hasRole ?role .
+}
+GROUP BY ?champ
+HAVING (COUNT(?role) > 1)

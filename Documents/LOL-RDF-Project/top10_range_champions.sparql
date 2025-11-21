@@ -1,0 +1,13 @@
+# Entrega los 10 campeones con mayor rango.
+
+PREFIX lol: <http://example.org/lol#>
+
+SELECT ?champ ?range
+WHERE {
+  ?champ a lol:Champion ;
+         lol:hasStat ?stat .
+  ?stat lol:statName "attackrange" ;
+        lol:statValue ?range .
+}
+ORDER BY DESC(?range)
+LIMIT 10
