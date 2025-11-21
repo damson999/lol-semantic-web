@@ -1,7 +1,0 @@
-PREFIX : <http://example.org/lol#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?champ ?hp WHERE {
-  ?champ :hasHP ?hp .
-  FILTER(xsd:double(?hp) > 700)
-}
-ORDER BY DESC(?hp)

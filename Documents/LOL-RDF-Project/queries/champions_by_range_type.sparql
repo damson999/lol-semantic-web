@@ -1,7 +1,0 @@
-PREFIX : <http://example.org/lol#>
-SELECT ?range (COUNT(?c) AS ?count)
-WHERE {
-  ?c :hasRange ?range .
-}
-GROUP BY ?range
-ORDER BY DESC(?count)

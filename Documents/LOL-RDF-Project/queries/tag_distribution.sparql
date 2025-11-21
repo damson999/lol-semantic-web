@@ -1,9 +1,0 @@
-PREFIX : <http://example.org/lol#>
-
-SELECT ?tag (COUNT(?champ) AS ?count)
-WHERE {
-  ?champ :hasTags ?tags .
-  BIND(?tags AS ?tag)
-}
-GROUP BY ?tag
-ORDER BY DESC(?count)

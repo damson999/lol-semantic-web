@@ -1,6 +1,0 @@
-PREFIX lol: <http://example.org/lol#>
-
-SELECT ?champ WHERE {
-  ?champ a lol:Champion ;
-         lol:hasRole lol:Mage .
-}

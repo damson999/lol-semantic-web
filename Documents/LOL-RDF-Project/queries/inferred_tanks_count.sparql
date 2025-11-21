@@ -1,4 +1,0 @@
-PREFIX : <http://example.org/lol#>
-SELECT (COUNT(?c) AS ?tankCount) WHERE {
-  ?c a :Tank .
-}

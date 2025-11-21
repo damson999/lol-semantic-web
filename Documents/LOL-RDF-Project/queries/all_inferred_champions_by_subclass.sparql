@@ -1,7 +1,0 @@
-PREFIX : <http://example.org/lol#>
-
-SELECT ?champ ?type WHERE {
-  ?champ a ?type .
-  FILTER(?type IN (:Tank, :Mage, :Support))
-}
-ORDER BY ?type ?champ

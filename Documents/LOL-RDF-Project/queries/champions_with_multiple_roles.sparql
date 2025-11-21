@@ -1,8 +1,0 @@
-PREFIX : <http://example.org/lol#>
-SELECT ?champ (COUNT(?role) AS ?rolesCount)
-WHERE {
-  ?champ :hasRole ?role .
-}
-GROUP BY ?champ
-HAVING (COUNT(?role) > 1)
-ORDER BY DESC(?rolesCount)

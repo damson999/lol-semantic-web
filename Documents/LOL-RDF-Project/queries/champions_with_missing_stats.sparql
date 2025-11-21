@@ -1,9 +1,0 @@
-PREFIX : <http://example.org/lol#>
-SELECT ?champ WHERE {
-  ?champ a :Champion .
-  FILTER NOT EXISTS { ?champ :hasHP ?hp . }
-  UNION
-  FILTER NOT EXISTS { ?champ :hasArmor ?armor . }
-  UNION
-  FILTER NOT EXISTS { ?champ :hasAttackDamage ?ad . }
-}
