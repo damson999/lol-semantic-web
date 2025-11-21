@@ -1,8 +1,0 @@
-# Entrega una lista de todos los campeones cuyo rol es luchador (Fighter).
-
-PREFIX lol: <http://example.org/lol#>
-
-SELECT ?champ WHERE {
-  ?champ a lol:Champion ;
-         lol:hasRole lol:Fighter .
-}
