@@ -1,0 +1,1663 @@
+@prefix : <http://example.org/lol#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Champion a rdfs:Class ;
+    owl:sameAs :Champion .
+
+:Role a rdfs:Class ;
+    owl:sameAs :Role .
+
+:Stat a rdfs:Class ;
+    owl:sameAs :Stat .
+
+:Aatrox a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Aatrox .
+
+:Ahri a :Champion ;
+    :hasAttackDamage 53 ;
+    :hasAttackRange 550 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Ahri .
+
+:Akali a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin ;
+    owl:sameAs :Akali .
+
+:Akshan a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 500 ;
+    :hasRole :Assassin,
+        :Marksman ;
+    owl:sameAs :Akshan .
+
+:Alistar a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 125 ;
+    :hasRole :Support,
+        :Tank ;
+    owl:sameAs :Alistar .
+
+:Amumu a :Champion ;
+    :hasAttackDamage 53 ;
+    :hasAttackRange 125 ;
+    :hasRole :Mage,
+        :Tank ;
+    owl:sameAs :Amumu .
+
+:Anivia a :Champion ;
+    :hasAttackDamage 51 ;
+    :hasAttackRange 600 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Anivia .
+
+:Annie a :Champion ;
+    :hasAttackDamage 50 ;
+    :hasAttackRange 625 ;
+    :hasRole :Mage ;
+    owl:sameAs :Annie .
+
+:Aphelios a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 550 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Aphelios .
+
+:Ashe a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 600 ;
+    :hasRole :Marksman,
+        :Support ;
+    owl:sameAs :Ashe .
+
+:AurelionSol a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :AurelionSol .
+
+:Azir a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage,
+        :Marksman ;
+    owl:sameAs :Azir .
+
+:Bard a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 500 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Bard .
+
+:Belveth a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter ;
+    owl:sameAs :Belveth .
+
+:Blitzcrank a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Blitzcrank .
+
+:Brand a :Champion ;
+    :hasAttackDamage 57 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Brand .
+
+:Braum a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 125 ;
+    :hasRole :Support,
+        :Tank ;
+    owl:sameAs :Braum .
+
+:Briar a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Briar .
+
+:Caitlyn a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 650 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Caitlyn .
+
+:Camille a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Camille .
+
+:Cassiopeia a :Champion ;
+    :hasAttackDamage 53 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Cassiopeia .
+
+:Chogath a :Champion ;
+    :hasAttackDamage 69 ;
+    :hasAttackRange 125 ;
+    :hasRole :Mage,
+        :Tank ;
+    owl:sameAs :Chogath .
+
+:Corki a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 550 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Corki .
+
+:Darius a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Darius .
+
+:Diana a :Champion ;
+    :hasAttackDamage 57 ;
+    :hasAttackRange 150 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Diana .
+
+:DrMundo a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :DrMundo .
+
+:Draven a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 550 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Draven .
+
+:Ekko a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Ekko .
+
+:Elise a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 550 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Elise .
+
+:Evelynn a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Evelynn .
+
+:Ezreal a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Marksman ;
+    owl:sameAs :Ezreal .
+
+:Fiddlesticks a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 480 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Fiddlesticks .
+
+:Fiora a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 150 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Fiora .
+
+:Fizz a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Fizz .
+
+:Galio a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 150 ;
+    :hasRole :Mage,
+        :Tank ;
+    owl:sameAs :Galio .
+
+:Gangplank a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter ;
+    owl:sameAs :Gangplank .
+
+:Garen a :Champion ;
+    :hasAttackDamage 69 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Garen .
+
+:Gnar a :Champion ;
+    :hasAttackDamage 57 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Gnar .
+
+:Gragas a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Gragas .
+
+:Graves a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 425 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Graves .
+
+:Gwen a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 150 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Gwen .
+
+:Hecarim a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Hecarim .
+
+:Heimerdinger a :Champion ;
+    :hasAttackDamage 56 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Heimerdinger .
+
+:Hwei a :Champion ;
+    :hasAttackDamage 54 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Hwei .
+
+:Illaoi a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Illaoi .
+
+:Irelia a :Champion ;
+    :hasAttackDamage 65 ;
+    :hasAttackRange 200 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Irelia .
+
+:Ivern a :Champion ;
+    :hasAttackDamage 50 ;
+    :hasAttackRange 475 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Ivern .
+
+:Janna a :Champion ;
+    :hasAttackDamage 47 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Janna .
+
+:JarvanIV a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :JarvanIV .
+
+:Jax a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Jax .
+
+:Jayce a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Marksman ;
+    owl:sameAs :Jayce .
+
+:Jhin a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Marksman ;
+    owl:sameAs :Jhin .
+
+:Jinx a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 525 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Jinx .
+
+:KSante a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :KSante .
+
+:Kaisa a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 525 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Kaisa .
+
+:Kalista a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 525 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Kalista .
+
+:Karma a :Champion ;
+    :hasAttackDamage 51 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Karma .
+
+:Karthus a :Champion ;
+    :hasAttackDamage 46 ;
+    :hasAttackRange 450 ;
+    :hasRole :Mage ;
+    owl:sameAs :Karthus .
+
+:Kassadin a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 150 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Kassadin .
+
+:Katarina a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Katarina .
+
+:Kayle a :Champion ;
+    :hasAttackDamage 50 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Support ;
+    owl:sameAs :Kayle .
+
+:Kayn a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Kayn .
+
+:Kennen a :Champion ;
+    :hasAttackDamage 48 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Marksman ;
+    owl:sameAs :Kennen .
+
+:Khazix a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin ;
+    owl:sameAs :Khazix .
+
+:Kindred a :Champion ;
+    :hasAttackDamage 65 ;
+    :hasAttackRange 500 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Kindred .
+
+:Kled a :Champion ;
+    :hasAttackDamage 65 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Kled .
+
+:KogMaw a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 500 ;
+    :hasRole :Mage,
+        :Marksman ;
+    owl:sameAs :KogMaw .
+
+:Leblanc a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 525 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Leblanc .
+
+:LeeSin a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :LeeSin .
+
+:Leona a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 125 ;
+    :hasRole :Support,
+        :Tank ;
+    owl:sameAs :Leona .
+
+:Lillia a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 325 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Lillia .
+
+:Lissandra a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Lissandra .
+
+:Lucian a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 500 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Lucian .
+
+:Lulu a :Champion ;
+    :hasAttackDamage 47 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Lulu .
+
+:Lux a :Champion ;
+    :hasAttackDamage 54 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Lux .
+
+:Malphite a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Malphite .
+
+:Malzahar a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 500 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Malzahar .
+
+:Maokai a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Mage,
+        :Tank ;
+    owl:sameAs :Maokai .
+
+:MasterYi a :Champion ;
+    :hasAttackDamage 65 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :MasterYi .
+
+:Milio a :Champion ;
+    :hasAttackDamage 48 ;
+    :hasAttackRange 525 ;
+    :hasRole :Support ;
+    owl:sameAs :Milio .
+
+:MissFortune a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 550 ;
+    :hasRole :Marksman ;
+    owl:sameAs :MissFortune .
+
+:MonkeyKing a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :MonkeyKing .
+
+:Mordekaiser a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter ;
+    owl:sameAs :Mordekaiser .
+
+:Morgana a :Champion ;
+    :hasAttackDamage 56 ;
+    :hasAttackRange 450 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Morgana .
+
+:Naafiri a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin ;
+    owl:sameAs :Naafiri .
+
+:Nami a :Champion ;
+    :hasAttackDamage 51 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Nami .
+
+:Nasus a :Champion ;
+    :hasAttackDamage 67 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Nasus .
+
+:Nautilus a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 175 ;
+    :hasRole :Support,
+        :Tank ;
+    owl:sameAs :Nautilus .
+
+:Neeko a :Champion ;
+    :hasAttackDamage 48 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Neeko .
+
+:Nidalee a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 525 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Nidalee .
+
+:Nilah a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 225 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Nilah .
+
+:Nocturne a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Nocturne .
+
+:Nunu a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Nunu .
+
+:Olaf a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Olaf .
+
+:Orianna a :Champion ;
+    :hasAttackDamage 40 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Orianna .
+
+:Ornn a :Champion ;
+    :hasAttackDamage 69 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Ornn .
+
+:Pantheon a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Pantheon .
+
+:Poppy a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Poppy .
+
+:Pyke a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 150 ;
+    :hasRole :Assassin,
+        :Support ;
+    owl:sameAs :Pyke .
+
+:Qiyana a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 150 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Qiyana .
+
+:Quinn a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 525 ;
+    :hasRole :Assassin,
+        :Marksman ;
+    owl:sameAs :Quinn .
+
+:Rakan a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 300 ;
+    :hasRole :Support ;
+    owl:sameAs :Rakan .
+
+:Rammus a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Rammus .
+
+:RekSai a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter ;
+    owl:sameAs :RekSai .
+
+:Rell a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 175 ;
+    :hasRole :Support,
+        :Tank ;
+    owl:sameAs :Rell .
+
+:Renata a :Champion ;
+    :hasAttackDamage 49 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Renata .
+
+:Renekton a :Champion ;
+    :hasAttackDamage 69 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Renekton .
+
+:Rengar a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Rengar .
+
+:Riven a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Riven .
+
+:Rumble a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Rumble .
+
+:Ryze a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 550 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Ryze .
+
+:Samira a :Champion ;
+    :hasAttackDamage 57 ;
+    :hasAttackRange 500 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Samira .
+
+:Sejuani a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 150 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Sejuani .
+
+:Senna a :Champion ;
+    :hasAttackDamage 50 ;
+    :hasAttackRange 600 ;
+    :hasRole :Marksman,
+        :Support ;
+    owl:sameAs :Senna .
+
+:Seraphine a :Champion ;
+    :hasAttackDamage 50 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Seraphine .
+
+:Sett a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Sett .
+
+:Shaco a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin ;
+    owl:sameAs :Shaco .
+
+:Shen a :Champion ;
+    :hasAttackDamage 64 ;
+    :hasAttackRange 125 ;
+    :hasRole :Tank ;
+    owl:sameAs :Shen .
+
+:Shyvana a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Shyvana .
+
+:Singed a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Singed .
+
+:Sion a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Sion .
+
+:Sivir a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 500 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Sivir .
+
+:Skarner a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 150 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Skarner .
+
+:Smolder a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 550 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Smolder .
+
+:Sona a :Champion ;
+    :hasAttackDamage 49 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Sona .
+
+:Soraka a :Champion ;
+    :hasAttackDamage 50 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Soraka .
+
+:Swain a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 525 ;
+    :hasRole :Fighter,
+        :Mage ;
+    owl:sameAs :Swain .
+
+:Sylas a :Champion ;
+    :hasAttackDamage 61 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Mage ;
+    owl:sameAs :Sylas .
+
+:Syndra a :Champion ;
+    :hasAttackDamage 54 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Syndra .
+
+:TahmKench a :Champion ;
+    :hasAttackDamage 56 ;
+    :hasAttackRange 175 ;
+    :hasRole :Support,
+        :Tank ;
+    owl:sameAs :TahmKench .
+
+:Taliyah a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Taliyah .
+
+:Talon a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin ;
+    owl:sameAs :Talon .
+
+:Taric a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 150 ;
+    :hasRole :Fighter,
+        :Support ;
+    owl:sameAs :Taric .
+
+:Teemo a :Champion ;
+    :hasAttackDamage 54 ;
+    :hasAttackRange 500 ;
+    :hasRole :Assassin,
+        :Marksman ;
+    owl:sameAs :Teemo .
+
+:Thresh a :Champion ;
+    :hasAttackDamage 56 ;
+    :hasAttackRange 450 ;
+    :hasRole :Fighter,
+        :Support ;
+    owl:sameAs :Thresh .
+
+:Tristana a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 525 ;
+    :hasRole :Assassin,
+        :Marksman ;
+    owl:sameAs :Tristana .
+
+:Trundle a :Champion ;
+    :hasAttackDamage 68 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Trundle .
+
+:Tryndamere a :Champion ;
+    :hasAttackDamage 66 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Tryndamere .
+
+:TwistedFate a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage ;
+    owl:sameAs :TwistedFate .
+
+:Twitch a :Champion ;
+    :hasAttackDamage 59 ;
+    :hasAttackRange 550 ;
+    :hasRole :Assassin,
+        :Marksman ;
+    owl:sameAs :Twitch .
+
+:Udyr a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Udyr .
+
+:Urgot a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 350 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Urgot .
+
+:Varus a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 575 ;
+    :hasRole :Mage,
+        :Marksman ;
+    owl:sameAs :Varus .
+
+:Vayne a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 550 ;
+    :hasRole :Assassin,
+        :Marksman ;
+    owl:sameAs :Vayne .
+
+:Veigar a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Veigar .
+
+:Velkoz a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage ;
+    owl:sameAs :Velkoz .
+
+:Vex a :Champion ;
+    :hasAttackDamage 54 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Vex .
+
+:Vi a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Vi .
+
+:Viego a :Champion ;
+    :hasAttackDamage 57 ;
+    :hasAttackRange 200 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Viego .
+
+:Viktor a :Champion ;
+    :hasAttackDamage 53 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage ;
+    owl:sameAs :Viktor .
+
+:Vladimir a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 450 ;
+    :hasRole :Mage ;
+    owl:sameAs :Vladimir .
+
+:Volibear a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 150 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Volibear .
+
+:Warwick a :Champion ;
+    :hasAttackDamage 65 ;
+    :hasAttackRange 125 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Warwick .
+
+:Xayah a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 525 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Xayah .
+
+:Xerath a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 525 ;
+    :hasRole :Mage ;
+    owl:sameAs :Xerath .
+
+:XinZhao a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :XinZhao .
+
+:Yasuo a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Yasuo .
+
+:Yone a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 175 ;
+    :hasRole :Assassin,
+        :Fighter ;
+    owl:sameAs :Yone .
+
+:Yorick a :Champion ;
+    :hasAttackDamage 62 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Yorick .
+
+:Yuumi a :Champion ;
+    :hasAttackDamage 49 ;
+    :hasAttackRange 425 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Yuumi .
+
+:Zac a :Champion ;
+    :hasAttackDamage 60 ;
+    :hasAttackRange 175 ;
+    :hasRole :Fighter,
+        :Tank ;
+    owl:sameAs :Zac .
+
+:Zed a :Champion ;
+    :hasAttackDamage 63 ;
+    :hasAttackRange 125 ;
+    :hasRole :Assassin ;
+    owl:sameAs :Zed .
+
+:Zeri a :Champion ;
+    :hasAttackDamage 56 ;
+    :hasAttackRange 500 ;
+    :hasRole :Marksman ;
+    owl:sameAs :Zeri .
+
+:Ziggs a :Champion ;
+    :hasAttackDamage 55 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage ;
+    owl:sameAs :Ziggs .
+
+:Zilean a :Champion ;
+    :hasAttackDamage 52 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Zilean .
+
+:Zoe a :Champion ;
+    :hasAttackDamage 58 ;
+    :hasAttackRange 550 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Zoe .
+
+:Zyra a :Champion ;
+    :hasAttackDamage 53 ;
+    :hasAttackRange 575 ;
+    :hasRole :Mage,
+        :Support ;
+    owl:sameAs :Zyra .
+
+:hasAttackDamage owl:sameAs :hasAttackDamage .
+
+:hasAttackRange owl:sameAs :hasAttackRange .
+
+rdf:HTML a rdfs:Datatype ;
+    owl:sameAs rdf:HTML .
+
+rdf:PlainLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:PlainLiteral .
+
+rdf:XMLLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:XMLLiteral .
+
+rdf:first owl:sameAs rdf:first .
+
+rdf:langString a rdfs:Datatype ;
+    owl:sameAs rdf:langString .
+
+rdf:rest owl:sameAs rdf:rest .
+
+rdf:type owl:sameAs rdf:type .
+
+rdfs:Literal a rdfs:Datatype ;
+    owl:sameAs rdfs:Literal .
+
+rdfs:comment a owl:AnnotationProperty ;
+    owl:sameAs rdfs:comment .
+
+rdfs:domain owl:sameAs rdfs:domain .
+
+rdfs:isDefinedBy a owl:AnnotationProperty ;
+    owl:sameAs rdfs:isDefinedBy .
+
+rdfs:label a owl:AnnotationProperty ;
+    owl:sameAs rdfs:label .
+
+rdfs:range owl:sameAs rdfs:range .
+
+rdfs:seeAlso a owl:AnnotationProperty ;
+    owl:sameAs rdfs:seeAlso .
+
+rdfs:subClassOf owl:sameAs rdfs:subClassOf .
+
+rdfs:subPropertyOf owl:sameAs rdfs:subPropertyOf .
+
+xsd:NCName a rdfs:Datatype ;
+    owl:sameAs xsd:NCName .
+
+xsd:NMTOKEN a rdfs:Datatype ;
+    owl:sameAs xsd:NMTOKEN .
+
+xsd:Name a rdfs:Datatype ;
+    owl:sameAs xsd:Name .
+
+xsd:anyURI a rdfs:Datatype ;
+    owl:sameAs xsd:anyURI .
+
+xsd:base64Binary a rdfs:Datatype ;
+    owl:sameAs xsd:base64Binary .
+
+xsd:byte a rdfs:Datatype ;
+    owl:sameAs xsd:byte .
+
+xsd:date a rdfs:Datatype ;
+    owl:sameAs xsd:date .
+
+xsd:dateTime a rdfs:Datatype ;
+    owl:sameAs xsd:dateTime .
+
+xsd:dateTimeStamp a rdfs:Datatype ;
+    owl:sameAs xsd:dateTimeStamp .
+
+xsd:double a rdfs:Datatype ;
+    owl:sameAs xsd:double .
+
+xsd:hexBinary a rdfs:Datatype ;
+    owl:sameAs xsd:hexBinary .
+
+xsd:int a rdfs:Datatype ;
+    owl:sameAs xsd:int .
+
+xsd:language a rdfs:Datatype ;
+    owl:sameAs xsd:language .
+
+xsd:long a rdfs:Datatype ;
+    owl:sameAs xsd:long .
+
+xsd:minInclusive owl:sameAs xsd:minInclusive .
+
+xsd:negativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:negativeInteger .
+
+xsd:nonNegativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonNegativeInteger .
+
+xsd:nonPositiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonPositiveInteger .
+
+xsd:normalizedString a rdfs:Datatype ;
+    owl:sameAs xsd:normalizedString .
+
+xsd:positiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:positiveInteger .
+
+xsd:short a rdfs:Datatype ;
+    owl:sameAs xsd:short .
+
+xsd:time a rdfs:Datatype ;
+    owl:sameAs xsd:time .
+
+xsd:token a rdfs:Datatype ;
+    owl:sameAs xsd:token .
+
+xsd:unsignedByte a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedByte .
+
+xsd:unsignedInt a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedInt .
+
+xsd:unsignedLong a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedLong .
+
+xsd:unsignedShort a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedShort .
+
+owl:backwardCompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:backwardCompatibleWith .
+
+owl:deprecated a owl:AnnotationProperty ;
+    owl:sameAs owl:deprecated .
+
+owl:equivalentClass owl:sameAs owl:equivalentClass .
+
+owl:equivalentProperty owl:sameAs owl:equivalentProperty .
+
+owl:hasValue owl:sameAs owl:hasValue .
+
+owl:incompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:incompatibleWith .
+
+owl:intersectionOf owl:sameAs owl:intersectionOf .
+
+owl:onProperty owl:sameAs owl:onProperty .
+
+owl:priorVersion a owl:AnnotationProperty ;
+    owl:sameAs owl:priorVersion .
+
+owl:sameAs owl:sameAs owl:sameAs .
+
+owl:someValuesFrom owl:sameAs owl:someValuesFrom .
+
+owl:versionInfo a owl:AnnotationProperty ;
+    owl:sameAs owl:versionInfo .
+
+owl:withRestrictions owl:sameAs owl:withRestrictions .
+
+xsd:string a rdfs:Datatype ;
+    owl:sameAs xsd:string .
+
+40 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 40 .
+
+46 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 46 .
+
+67 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 67 .
+
+225 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 225 .
+
+300 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 300 .
+
+325 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 325 .
+
+350 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 350 .
+
+475 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 475 .
+
+480 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 480 .
+
+625 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 625 .
+
+650 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 650 .
+
+"attackdamage" owl:sameAs "attackdamage" .
+
+:hasRole a rdf:Property ;
+    rdfs:domain :Champion ;
+    rdfs:range :Role ;
+    rdfs:subPropertyOf :hasRole ;
+    owl:equivalentProperty :hasRole ;
+    owl:sameAs :hasRole .
+
+:isMelee a owl:DatatypeProperty ;
+    rdfs:domain :Champion ;
+    rdfs:range xsd:boolean ;
+    rdfs:subPropertyOf :isMelee ;
+    owl:equivalentProperty :isMelee ;
+    owl:sameAs :isMelee .
+
+:isRanged a owl:DatatypeProperty ;
+    rdfs:domain :Champion ;
+    rdfs:range xsd:boolean ;
+    rdfs:subPropertyOf :isRanged ;
+    owl:equivalentProperty :isRanged ;
+    owl:sameAs :isRanged .
+
+xsd:boolean a rdfs:Datatype ;
+    owl:sameAs xsd:boolean .
+
+xsd:float a rdfs:Datatype ;
+    owl:sameAs xsd:float .
+
+owl:DatatypeProperty owl:sameAs owl:DatatypeProperty .
+
+owl:Nothing a owl:Class ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb1,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb3,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb4,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb5,
+        :Champion,
+        :HighDamageChampion,
+        :Stat,
+        owl:Nothing,
+        owl:Thing ;
+    owl:equivalentClass owl:Nothing ;
+    owl:sameAs owl:Nothing .
+
+47 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 47 .
+
+200 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 200 .
+
+425 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 425 .
+
+575 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 575 .
+
+:hasStat a rdf:Property ;
+    rdfs:domain :Champion ;
+    rdfs:range :Stat ;
+    rdfs:subPropertyOf :hasStat ;
+    owl:equivalentProperty :hasStat ;
+    owl:sameAs :hasStat .
+
+:statName a rdf:Property ;
+    rdfs:domain :Stat ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :statName ;
+    owl:equivalentProperty :statName ;
+    owl:sameAs :statName .
+
+:statValue a rdf:Property ;
+    rdfs:domain :Stat ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf :statValue ;
+    owl:equivalentProperty :statValue ;
+    owl:sameAs :statValue .
+
+() owl:sameAs () .
+
+rdfs:Class owl:sameAs rdfs:Class .
+
+owl:Restriction owl:sameAs owl:Restriction .
+
+48 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 48 .
+
+49 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 49 .
+
+51 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 51 .
+
+600 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 600 .
+
+rdf:Property owl:sameAs rdf:Property .
+
+69 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 69 .
+
+450 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 450 .
+
+:HighDamageChampion a owl:Class ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb1,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2,
+        :Champion,
+        :HighDamageChampion,
+        owl:Thing ;
+    owl:equivalentClass _:nf4a30e449e7f43c5a74f3f1e7daec0dbb1,
+        :HighDamageChampion ;
+    owl:sameAs :HighDamageChampion .
+
+owl:Class owl:sameAs owl:Class .
+
+53 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 53 .
+
+54 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 54 .
+
+56 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 56 .
+
+57 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 57 .
+
+65 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 65 .
+
+owl:Thing a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass owl:Thing ;
+    owl:sameAs owl:Thing .
+
+50 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 50 .
+
+52 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 52 .
+
+63 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 63 .
+
+66 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 66 .
+
+owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
+
+59 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 59 .
+
+61 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 61 .
+
+68 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 68 .
+
+500 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 500 .
+
+58 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 58 .
+
+62 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 62 .
+
+64 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 64 .
+
+150 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 150 .
+
+55 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 55 .
+
+60 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 60 .
+
+525 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 525 .
+
+175 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 175 .
+
+:Marksman a :Role ;
+    owl:sameAs :Marksman .
+
+550 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 550 .
+
+:Support a :Role ;
+    owl:sameAs :Support .
+
+rdfs:Datatype owl:sameAs rdfs:Datatype .
+
+:Assassin a :Role ;
+    owl:sameAs :Assassin .
+
+xsd:decimal a rdfs:Datatype ;
+    owl:sameAs xsd:decimal .
+
+xsd:integer a rdfs:Datatype ;
+    owl:sameAs xsd:integer .
+
+125 a xsd:decimal,
+        xsd:integer ;
+    owl:sameAs 125 .
+
+:Tank a :Role ;
+    owl:sameAs :Tank .
+
+:Mage a :Role ;
+    owl:sameAs :Mage .
+
+:Fighter a :Role ;
+    owl:sameAs :Fighter .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb10 rdf:first _:nf4a30e449e7f43c5a74f3f1e7daec0dbb5 ;
+    rdf:rest () ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb10 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb11 rdf:first :Champion ;
+    rdf:rest _:nf4a30e449e7f43c5a74f3f1e7daec0dbb12 ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb11 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb12 rdf:first _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2 ;
+    rdf:rest () ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb12 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb6 xsd:minInclusive 60 ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb6 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb7 rdf:first _:nf4a30e449e7f43c5a74f3f1e7daec0dbb6 ;
+    rdf:rest () ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb7 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb8 rdf:first :Stat ;
+    rdf:rest _:nf4a30e449e7f43c5a74f3f1e7daec0dbb9 ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb8 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb9 rdf:first _:nf4a30e449e7f43c5a74f3f1e7daec0dbb4 ;
+    rdf:rest _:nf4a30e449e7f43c5a74f3f1e7daec0dbb10 ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb9 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb3 a owl:Class ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb3,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb4,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb5,
+        :Stat,
+        owl:Thing ;
+    owl:equivalentClass _:nf4a30e449e7f43c5a74f3f1e7daec0dbb3 ;
+    owl:intersectionOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb8 ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb3 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb1 a owl:Class ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb1,
+        _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2,
+        :Champion,
+        :HighDamageChampion,
+        owl:Thing ;
+    owl:equivalentClass _:nf4a30e449e7f43c5a74f3f1e7daec0dbb1,
+        :HighDamageChampion ;
+    owl:intersectionOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb11 ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb1 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb4 a owl:Restriction ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb4 ;
+    owl:equivalentClass _:nf4a30e449e7f43c5a74f3f1e7daec0dbb4 ;
+    owl:hasValue "attackdamage" ;
+    owl:onProperty :statName ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb4 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb5 a owl:Restriction ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb5 ;
+    owl:equivalentClass _:nf4a30e449e7f43c5a74f3f1e7daec0dbb5 ;
+    owl:onProperty :statValue ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb5 ;
+    owl:someValuesFrom xsd:float ;
+    owl:withRestrictions _:nf4a30e449e7f43c5a74f3f1e7daec0dbb7 .
+
+_:nf4a30e449e7f43c5a74f3f1e7daec0dbb2 a owl:Restriction ;
+    rdfs:subClassOf _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2 ;
+    owl:equivalentClass _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2 ;
+    owl:onProperty :hasStat ;
+    owl:sameAs _:nf4a30e449e7f43c5a74f3f1e7daec0dbb2 ;
+    owl:someValuesFrom _:nf4a30e449e7f43c5a74f3f1e7daec0dbb3 .
+
