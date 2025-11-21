@@ -1,8 +1,0 @@
-# Entrega una lista de campeones con sus respectivos roles.
-
-PREFIX lol: <http://example.org/lol#>
-
-SELECT ?champ ?role WHERE {
-  ?champ a lol:Champion ;
-         lol:hasRole ?role .
-}
