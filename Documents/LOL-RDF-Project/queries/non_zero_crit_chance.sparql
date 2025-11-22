@@ -8,6 +8,6 @@ WHERE {
          lol:hasStat ?stat .
   ?stat lol:statName "crit" ;
         lol:statValue ?crit .
-  FILTER(?crit != 0)
+  FILTER(?crit > 0)
 }
 ORDER BY DESC(?crit)
