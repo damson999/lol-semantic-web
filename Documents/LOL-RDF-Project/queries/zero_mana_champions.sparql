@@ -7,6 +7,7 @@ WHERE {
   ?champ a lol:Champion ;
          lol:hasStat ?stat .
   ?stat lol:statName "mp" ;
-        lol:statValue 0 .
+        lol:statValue ?value .
+  FILTER (?value < 0.001) .
 }
 ORDER BY ?champ
